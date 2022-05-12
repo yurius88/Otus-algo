@@ -1,0 +1,6 @@
+o:\Курсы\Otus\Алгоритмы и структуры данных\Занятие 1. Циклы и рекурсия\ДЗ\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+O:\Курсы\Otus\Алгоритмы и структуры данных\Занятие 1. Циклы и рекурсия\ДЗ\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+O:\Курсы\Otus\Алгоритмы и структуры данных\Занятие 1. Циклы и рекурсия\ДЗ\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+O:\Курсы\Otus\Алгоритмы и структуры данных\Занятие 1. Циклы и рекурсия\ДЗ\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+O:\Курсы\Otus\Алгоритмы и структуры данных\Занятие 1. Циклы и рекурсия\ДЗ\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+O:\Курсы\Otus\Алгоритмы и структуры данных\Занятие 1. Циклы и рекурсия\ДЗ\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
