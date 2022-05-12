@@ -7,6 +7,12 @@
 #include <fstream>
 #include <filesystem>
 #include <string>
+#include <chrono>
+
+int64_t MilliSecondsSinceEpoch()
+{
+    return std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::system_clock::now().time_since_epoch()).count();
+}
 
 std::vector<unsigned long long> SumOfColumn(unsigned N)
 {
@@ -57,6 +63,8 @@ std::vector<unsigned long long> SumOfColumn(unsigned N)
 
 int main()
 {
+    int64_t t1 = MilliSecondsSinceEpoch();
+
     for(unsigned i = 0; i < 10; ++i)
     {
         const unsigned size = 11;
@@ -99,7 +107,9 @@ int main()
         }
     }
 
-    printf("Test succeeded");
+    int64_t t2 = MilliSecondsSinceEpoch();
+
+    printf("Test succeeded. Elapsed time: %lld ms\n", t2-t1);
     return 0;
 }
 
